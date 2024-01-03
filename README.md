@@ -38,7 +38,7 @@ It will show as follows:
     	/dev/video1
     	/dev/media0
 
-in this case, HD720P Webcam  ``/dev/video2`` is used, instead of built-in webcam
+in this case, HD720P Webcam  ``/dev/video2`` is used, instead of built-in webcam USB2.0 HD ``/dev/video0``
 
 ## Instructions
 
