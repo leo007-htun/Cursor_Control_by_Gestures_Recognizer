@@ -38,6 +38,9 @@ It will show as follows:
     	/dev/video1
     	/dev/media0
 
+## Instruction
+<img width="1073" alt="hand-landmarks" src="https://github.com/leo007-htun/Cursor_Control_by_Hand_Landmark_Detection/assets/66962471/b420286c-adc0-4efc-8b88-3b52fb3d71db">
+
 
 
 
