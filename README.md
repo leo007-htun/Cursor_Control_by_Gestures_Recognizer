@@ -18,7 +18,7 @@ This first parameter controls the complexity of the hand tracking model. A value
 
 ## Installation
 
-    $ git clone https://github.com/leo007-htun/GPT3_Automated_Assistant_with_wake_word.git
+    $ git clone https://github.com/leo007-htun/Cursor_Control_by_Hand_Landmark_Detection.git
     
 
     $ pip install -r requirements.txt
