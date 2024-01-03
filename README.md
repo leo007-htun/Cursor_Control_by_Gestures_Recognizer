@@ -20,7 +20,7 @@ This first parameter controls the complexity of the hand tracking model. A value
 
     cv2.VideoCapture(2)
 
-The number inside parentheses is the available webcams from the user's device.
+The number inside parentheses is the available webcams' info from the user's device.
 If there are multiple webcams, try the following to check the webcam indeces
 
     $ sudo apt-get install v4l-utils
@@ -37,6 +37,8 @@ It will show as follows:
     	/dev/video0
     	/dev/video1
     	/dev/media0
+
+in this case, HD720P Webcam  ``/dev/video2`` is used, instead of built-in webcam
 
 ## Instructions
 
