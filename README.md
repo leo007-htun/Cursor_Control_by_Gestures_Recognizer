@@ -5,7 +5,8 @@
     
 </div>
 
-https://github.com/leo007-htun/Object_Detection_Model_Deployment/assets/66962471/3cd7579d-a944-4281-94f7-a3e73f4ae8d1
+
+https://github.com/leo007-htun/Cursor_Control_by_Hand_Landmark_Detection/assets/66962471/aa34c361-8dd9-4072-bab6-ed9bb4c1dcf8
 
 ## Hand Landmark Detection with pre-trained model from Mediapipe
 
