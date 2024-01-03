@@ -51,7 +51,7 @@ For ``.press()``, keyword ``f`` is passed into that function ``.press('f')`` to 
 
 In this repo, resolution is set to minimal, since FPS is the priority while moving cursor around. As Futureworks, calibration techniques must be considered.
 
-Check you webcam's resolution and fps as follows:
+Check webcam's resolution and fps as follows:
 
 	$ v4l2-ctl --list-formats-ext
  
