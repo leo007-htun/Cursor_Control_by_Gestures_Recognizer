@@ -55,7 +55,7 @@ Check webcam's resolution and fps as follows:
 
 	$ v4l2-ctl --list-formats-ext
  
- It will show as follows:
+ It will show minimum and maximum trade-offs bwtween Resolution and FPS as follows:
  
 	 ioctl: VIDIOC_ENUM_FMT
 		Type: Video Capture
