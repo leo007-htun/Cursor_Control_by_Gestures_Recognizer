@@ -51,6 +51,47 @@ For ``.press()``, keyword ``f`` is passed into that function ``.press('f')`` to 
 
 In this repo, resolution is set to minimal, since FPS is the priority while moving cursor around. As Futureworks, calibration techniques must be considered.
 
+Check you webcam's resolution and fps as follows:
+
+	$ v4l2-ctl --list-formats-ext
+ 
+ It will show as follows:
+ 
+ ioctl: VIDIOC_ENUM_FMT
+	Type: Video Capture
+
+	[0]: 'MJPG' (Motion-JPEG, compressed)
+		Size: Discrete 1280x720
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 800x600
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 640x480
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 352x288
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 320x240
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 176x144
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 160x120
+			Interval: Discrete 0.033s (30.000 fps)
+	[1]: 'YUYV' (YUYV 4:2:2)
+		Size: Discrete 640x480
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 1280x720
+			Interval: Discrete 0.100s (10.000 fps)
+		Size: Discrete 800x600
+			Interval: Discrete 0.050s (20.000 fps)
+		Size: Discrete 352x288
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 320x240
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 176x144
+			Interval: Discrete 0.033s (30.000 fps)
+		Size: Discrete 160x120
+			Interval: Discrete 0.033s (30.000 fps)
+
+
 ## Installation
 
     $ git clone https://github.com/leo007-htun/Cursor_Control_by_Hand_Landmark_Detection.git
