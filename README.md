@@ -47,7 +47,9 @@ There are two functions such as ``.click()`` and ``.press()`` from ``pyautogui``
 For ``.press()``, keyword ``f`` is passed into that function ``.press('f')`` to exit or enter full-screen mode. The closer the tip of ``thumb`` and ``middle`` finger gets, ``press`` initiates. In the image above, ``ID`` of finger joints can be found. 
 
 > [!TIP]
-> Helpful advice for doing things better or more easily.
+> FPS and Image Resolutions are always inversely propotional, one must choose FPS over Resolution or Resolution over FPS
+
+In this repo, resolution is set to minimal, since FPS is the priority while move cursor around. As Futureworks, calibration techniques must be considered.
 
 ## Installation
 
