@@ -23,8 +23,8 @@ This first parameter controls the complexity of the hand tracking model. A value
 The number inside parentheses is the available webcams from the user's device.
 If there are multiple webcams, try the following to check the webcam indeces
 
-    $sudo apt-get install v4l-utils
-    $v4l2-ctl --list-devices
+    $ sudo apt-get install v4l-utils
+    $ v4l2-ctl --list-devices
 
 It will show as follows:
 
