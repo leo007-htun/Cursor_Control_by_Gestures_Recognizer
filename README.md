@@ -47,7 +47,7 @@ It will show as follows:
     $ pip install -r requirements.txt
 
 ## RUN
-    $ source best.sh to run in background
+    $ source best.sh 
 
 
 
