@@ -49,7 +49,7 @@ For ``.press()``, keyword ``f`` is passed into that function ``.press('f')`` to 
 > [!TIP]
 > FPS and Image Resolutions are always inversely propotional, one must choose FPS over Resolution or Resolution over FPS
 
-In this repo, resolution is set to minimal, since FPS is the priority while move cursor around. As Futureworks, calibration techniques must be considered.
+In this repo, resolution is set to minimal, since FPS is the priority while moving cursor around. As Futureworks, calibration techniques must be considered.
 
 ## Installation
 
