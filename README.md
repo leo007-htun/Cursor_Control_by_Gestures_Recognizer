@@ -39,7 +39,9 @@ It will show as follows:
     	/dev/media0
 
 ## Instructions
+
 <img width="1073" alt="hand-landmarks" src="https://github.com/leo007-htun/Cursor_Control_by_Hand_Landmark_Detection/assets/66962471/b420286c-adc0-4efc-8b88-3b52fb3d71db">
+
 
 There are two functions such as ``.click()`` and ``.press()`` from ``pyautogui``. For first function, the distance between ``thumb`` and ``index`` fingers tips are measured and once the two tips meet each other, it clicks. 
 For ``.press()``, keyword ``f`` is passed into that function ``.press('f')`` to exit or enter full-screen mode. The closer the tip of ``thumb`` and ``middle`` finger gets, ``press`` initiates. In the image above, ``ID`` of finger joints can be found. 
