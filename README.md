@@ -23,9 +23,6 @@ This first parameter controls the complexity of the hand tracking model. A value
 
     $ pip install -r requirements.txt
 
-replace ``YOUR_API_KEY`` with user's OpeanAI API key
-
-
 ## RUN
     $ source best.sh to run in background
 
