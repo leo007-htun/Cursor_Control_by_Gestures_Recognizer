@@ -47,7 +47,7 @@ There are two functions such as ``.click()`` and ``.press()`` from ``pyautogui``
 For ``.press()``, keyword ``f`` is passed into that function ``.press('f')`` to exit or enter full-screen mode. The closer the tip of ``thumb`` and ``middle`` finger gets, ``press`` initiates. In the image above, ``ID`` of finger joints can be found. 
 
 > [!TIP]
-> FPS and Image Resolutions are always inversely propotional, one must choose FPS over Resolution or Resolution over FPS
+> one must choose trade-off between FPS and Imge Resolution
 
 In this repo, resolution is set to minimal, since FPS is the priority while moving cursor around. As Futureworks, calibration techniques must be considered.
 
@@ -55,7 +55,7 @@ Check webcam's resolution and fps as follows:
 
 	$ v4l2-ctl --list-formats-ext
  
- It will show minimum and maximum trade-offs bwtween Resolution and FPS as follows:
+ It will show minimum and maximum trade-offs between Resolution and FPS as follows:
  
 	 ioctl: VIDIOC_ENUM_FMT
 		Type: Video Capture
